@@ -1,0 +1,47 @@
+*{
+background-color:black;
+color:white;
+}
+
+
+.container{
+position:absolute;
+display:block;
+top:20%;
+left:35%;
+}
+
+.title{
+font-size:50px;
+}
+
+.container p{
+font-size:20px;
+}
+
+.container input{
+padding-left:10px;
+margin-left:20px;
+background-color:#363635;
+border-radius:5px;
+}
+
+.container button{
+position:relative;
+margin-top:30px;
+padding: 5px 8px;
+left:50%;
+background-color:#363635;
+}
+
+.container .or{
+position:relative;
+padding-top:40px;
+left:50%;
+}
+
+.container .signupLink{
+position:relative;
+padding-top:20px;
+left:45%;
+}

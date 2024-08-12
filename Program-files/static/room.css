@@ -1,0 +1,126 @@
+*{
+box-sizing:border-box;
+margin:0;
+
+}
+
+html, body{
+    background:black;
+
+  }
+  h1,h2,h3,p{
+  color:white;
+  }
+
+
+.submitbtn{
+height:30px;
+margin-top:8px;
+margin-left:10px;
+}
+
+.stick_msg{
+display: flex;
+position: fixed;
+width:100%;
+background-color:#363635;
+color:white;
+bottom:0%;
+margin-left:0px;
+border-radius:5px;
+}
+
+.stick_msg li{
+display:inline-block;
+
+}
+
+.stick_msg li p{
+color:white;
+}
+
+
+.msg-container{
+display:flex;
+
+}
+ .message{
+   margin-left:10px;
+  }
+
+
+  .msgpic img{
+   display:inline-block;
+    float:left;
+    width:40px;
+    height:45px;
+    border-radius:5px;
+    border-top-right-radius: 5px;
+    margin-right: 20px;
+    }
+
+
+
+  .profpic {
+  display: block;
+   height: 300px;
+    width: auto;
+  position: relative;
+  padding: 10px 20px;
+
+  }
+
+
+  .profpic img{
+    height: 300px;
+    width: 900px;
+  }
+
+  .textdate{
+  display: inline-block;
+  margin-top:-20px;
+  margin-left:100px;
+  color:grey;
+  }
+
+  .textmsg{
+  display:inline-block;
+  margin-left:5px;
+  margin-top:2px;
+  }
+
+.textusernm{
+  text-align: left;
+  margin: 5px, 20px;
+
+  }
+
+  .arrow{
+  display:inline-block;
+  float: left;
+  width:40px;
+  height:40px;
+  background-color:transparent;
+  padding: 7px 5px;
+  }
+
+  .empty{
+  height:30px;
+  width:100%;
+  }
+
+  .msg-head{
+  margin-top:30px;
+  margin-left:10px;
+  }
+
+  .user-welcome{
+  margin-top:5px;
+  margin-left:5px;
+  }
+  .logoutbtn{
+  margin-top:5px;
+  padding:3px 5px;
+  margin-bottom:5px;
+  margin-left:8px;
+  }

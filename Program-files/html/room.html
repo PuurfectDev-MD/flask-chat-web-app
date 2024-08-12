@@ -1,0 +1,32 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="static/room.css">
+  <head>
+    <title>
+      Chat room
+    </title>
+  </head>
+  <body>
+    <h2>Chat room</h2>
+    <img  class= "profpic" src="{{ profile_pic }}">
+<hr>
+    <h3 class="user-welcome">User: {{ name }}</h3>
+    <button class="logoutbtn" type="button" onclick="location.href='/logout'">Logout</button>
+
+    <form method="POST" action="/sendmsg">
+        <div class="stick_msg">
+            <ul>
+              <li><p>Topic: <input type="text" name="title"></p></li>
+                <li> <p>Hashtag: <input type="text" name="hashtag"></p></li>
+                <li><p>Text: <input type="text" name="msg" required></p></li>
+                <li><button class = 'submitbtn' type="submit">Send</button></li>
+
+            </ul>
+
+
+            </div>
+    </form>
+    <hr>
+    <h3 class="msg-head"> Messages:</h3>
+
+  </body>
+</html>
